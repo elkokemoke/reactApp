@@ -16,7 +16,8 @@ function ToDoForm({ addTodo }) {
   function handleSubmit(e) {
       e.preventDefault();
       if (todo.task.trim()) {
-          addTodo({ ...todo, id: "uuid.v4" });
+          addTodo({ ...todo, id: uuidv4() });
+
         //reset task input
         setTodo({ ...todo, task:""});
       }
