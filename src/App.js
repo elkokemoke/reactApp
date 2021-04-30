@@ -44,9 +44,10 @@ function App() {
 
   return (
     <div className="App">
+      <div className="Border-gradient Border-gradient-purple">
       <Typography style={{ padding: 16 }} variant="h1">
   
-        React Todo
+        React ToDo
 
       </Typography>
         <p>Need help organizing your tasks?  Let us help.</p>
@@ -54,7 +55,7 @@ function App() {
         <TodoList todos={todos}
         toggleComplete={toggleComplete}
         removeTodo={removeTodo}/>
-          
+    </div>      
 </div>
 
   );

@@ -17,6 +17,7 @@ html,
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 3rem;
 }
 
 li {
@@ -58,8 +59,3 @@ li {
     transform: rotate(360deg);
   }
 }
-
-.Radfont {
-  font-family: 'Nothing You Could Do';
-}
-
