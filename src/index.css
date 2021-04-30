@@ -4,19 +4,55 @@ body {
     sans-serif;
     font-weight: bold;
     font-size: 1rem;
-
+    background: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1.MuiTypography-h1  {
   font-family: 'Lexend', sans-serif;
+  font-size: 72px;
+  background: linear-gradient(180deg, rgba(245,0,87,1) 48%, rgba(22,48,73,1) 71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 p.MuiTypography-body1 {
   font-family: 'Nothing You Could Do';
   font-size: 1.6rem;
 }
+
+.MuiButton-label {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lexend', sans-serif;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+
+Button.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgb(246 1 88);
+}
+
+
+Button.MuiButton-root {
+background: #1d2f4a;
+margin-left: 2rem;
+}
+
+.Border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  padding: 3rem;
+}
+.Border-gradient-purple {
+  border-image-source: linear-gradient(23deg, rgba(245,0,87,1) 28%, rgba(22,48,73,1) 81%);
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
